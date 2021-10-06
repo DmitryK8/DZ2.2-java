@@ -1,4 +1,4 @@
-public class Main {
+public class main {
     private static int BonusReplenishment;
 
     public static void main(String[] args) {
