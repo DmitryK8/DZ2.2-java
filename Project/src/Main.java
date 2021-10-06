@@ -1,13 +1,13 @@
 public class main {
-    private static int BonusReplenishment;
+    private static int bonusReplenishment;
 
     public static void main(String[] args) {
-        int PersonalAccount = 100;
-        int BonusReplenishment = 0;
-        int Replenishment = 1100;
-        if (Replenishment >= 1000) {
-            BonusReplenishment = Replenishment / 100;
+        int personalAccount = 100;
+        int bonusReplenishment = 0;
+        int replenishment = 1100;
+        if (replenishment >= 1000) {
+            bonusReplenishment = Replenishment / 100;
         }
-        System.out.println(BonusReplenishment + Replenishment + PersonalAccount);
+        System.out.println(bonusReplenishment + replenishment + personalAccount);
     }
 }
