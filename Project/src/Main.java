@@ -1,7 +1,7 @@
-public class main {
+public class Main {
     private static int bonusReplenishment;
 
-    public static void Main(String[] args) {
+    public static void main(String[] args) {
         int personalAccount = 100;
         int bonusReplenishment = 0;
         int replenishment = 1100;
